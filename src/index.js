@@ -9,6 +9,7 @@ function component() {
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
     btn.innerHTML = 'Click me and check the console!';
+    btn.style.backgroundColor = "red"
     btn.onclick = printMe;
   
     element.appendChild(btn);
