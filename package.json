@@ -1,6 +1,7 @@
 {
   "name": "webpack-demo",
   "version": "1.0.0",
+  "main": "dist/main.js",
   "description": "",
   "private": "true",
   "scripts": {
